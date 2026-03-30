@@ -1,0 +1,49 @@
+# images
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# documents
+*.pdf
+*.doc
+*.docx
+
+# private files
+.env
+private/
+
+# system files
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+# ignore ONLY private images
+private-images/
+*.png
+*.jpeg
+*.gif
+# documents
+*.pdf
+*.doc
+*.docx
+
+# private files
+.env
+private/
+
+# private images only
+private-images/
+
+# system files
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+project/
+  images/          ✅ used in site
+  private-images/  ❌ ignored
+  git rm -r --cached .
+  
